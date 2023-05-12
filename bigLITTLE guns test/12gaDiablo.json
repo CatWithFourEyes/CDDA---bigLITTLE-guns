@@ -1,0 +1,37 @@
+[
+{
+    "id": "diablo_12ga",
+    "copy-from": "pistol_base",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": { "str": "Diablo 12 Gauge Pistol" },
+    "description": "Two 12ga barrels packed in size of pistol. Reliable, compact and deadly in close range weapon ",
+    "ascii_picture": "shotgun_pistol",
+    "weight": "1450 g",
+    "volume": "1200 ml",
+    "longest_side": "254 mm",
+    "price": 49900,
+    "price_postapoc": 500,
+    "to_hit": -2,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": [ "shot" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -7 },
+    "range": -2,
+    "dispersion": 950,
+    "durability": 8,
+    "clip_size": 2,
+    "reload": 80,
+    "valid_mod_locations": [
+      [ "grip", 1 ],
+      [ "stock mount", 1 ],
+      [ "mechanism", 4 ],
+      [ "sights mount", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT", "RELOAD_ONE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } } ],
+    "melee_damage": { "bash": 6 }
+  }
+]
