@@ -1,11 +1,11 @@
 [
 {
-    "id": "ashot",
+    "id": "diablo_12ga",
     "copy-from": "pistol_base",
     "looks_like": "glock_17",
     "type": "GUN",
-    "name": { "str": "12 gauge pistol" },
-    "description": "A single shot pistol that loads 12 gauge shotgun shells, handcrafted from scrap.",
+    "name": { "str": "Diablo 12 Gauge Pistol" },
+    "description": "Two 12ga barrels packed in size of pistol. Reliable, compact and deadly in close range weapon ",
     "ascii_picture": "shotgun_pistol",
     "weight": "1450 g",
     "volume": "1200 ml",
@@ -18,8 +18,9 @@
     "color": "brown",
     "ammo": [ "shot" ],
     "ranged_damage": { "damage_type": "bullet", "amount": -7 },
+    "range": -2,
     "dispersion": 950,
-    "durability": 6,
+    "durability": 8,
     "clip_size": 2,
     "reload": 80,
     "valid_mod_locations": [
@@ -29,7 +30,7 @@
       [ "sights mount", 1 ]
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ],
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT", "RELOAD_ONE" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } } ],
     "melee_damage": { "bash": 6 }
   }
