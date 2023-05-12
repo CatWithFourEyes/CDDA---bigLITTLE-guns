@@ -5,7 +5,7 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "//": [
-      "Since there no full-auto Vectors SMG's in USA (officialy), i decide to make it a PCC, which represented at civilian market."
+      "Since there no full-auto Vectors SMG's in USA (officialy), i decide to make it a PCC, which represented at civilian market. This variant uses SMG's skill, because it is essentialy is semi-auto only version of Vector SMG."
     ],
     "name": { "str": "Glock PCC" },
     "description": "A pistol caliber carbine chambered in .357 SiG, accepting Glock magazines.",
