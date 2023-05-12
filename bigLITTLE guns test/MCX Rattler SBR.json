@@ -40,6 +40,7 @@
 			["muzzle", 1],
 			["rail mount", 2],
 			["sights", 1],
+                        ["sling", 1],
 			["stock mount", 1]
 		],
 		"default_mods": ["folding_stock"],
@@ -106,6 +107,7 @@
 			["mechanism", 4],
 			["magazine", 1],
 			["muzzle", 1],
+                        ["sling", 1 ],
 			["rail mount", 2],
 			["sights", 1],
 			["stock mount", 1]
