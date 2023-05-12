@@ -1,0 +1,36 @@
+[
+{
+    "id": "ashot",
+    "copy-from": "pistol_base",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": { "str": "12 gauge pistol" },
+    "description": "A single shot pistol that loads 12 gauge shotgun shells, handcrafted from scrap.",
+    "ascii_picture": "shotgun_pistol",
+    "weight": "1450 g",
+    "volume": "1200 ml",
+    "longest_side": "254 mm",
+    "price": 49900,
+    "price_postapoc": 500,
+    "to_hit": -2,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": [ "shot" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -7 },
+    "dispersion": 950,
+    "durability": 6,
+    "clip_size": 2,
+    "reload": 80,
+    "valid_mod_locations": [
+      [ "grip", 1 ],
+      [ "stock mount", 1 ],
+      [ "mechanism", 4 ],
+      [ "sights mount", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } } ],
+    "melee_damage": { "bash": 6 }
+  }
+]
