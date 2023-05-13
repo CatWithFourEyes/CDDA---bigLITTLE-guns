@@ -11,7 +11,7 @@
     "volume": "1200 ml",
     "longest_side": "254 mm",
     "price": 49900,
-    "price_postapoc": 500,
+    "price_postapoc": 750,
     "to_hit": -2,
     "material": [ "steel", "wood" ],
     "symbol": "(",
