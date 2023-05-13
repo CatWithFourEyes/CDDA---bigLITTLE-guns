@@ -23,7 +23,7 @@ HK UMP40
 
 HK MP5/10 and MP5/40 (most likely based on MP5A5 variant, with retractable buttstock and 3-round burst trigger group)
 
-B&T Station SIX-9 and Station SIX-45
+B&T Station SIX-9 and Station SIX-45 (also subsonic 9x19 and .45 ACP)
 
 Defenzia D-09 
 
