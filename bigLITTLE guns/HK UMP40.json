@@ -1,0 +1,78 @@
+ [{
+    "id": "hk_ump40",
+    "looks_like": "hk_mp5",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "UMP40 SMG" },
+    "description": "A submachine gun chambered in .40 ACP and accepting UMP40 magazines.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "hk_ump45",
+        "name": { "str": "H&K UMP40" },
+        "description": "Chambered in .40 S&W SMG variant of HK UMP45. Almost identical except for the cartrige used and the associated with it slightly better accuracy. Before the wold collapsed, was used by some special forcec units.",
+        "weight": 1
+      }
+    ],
+    "ascii_picture": "hk_ump",
+    "weight": "2300 g",
+    "volume": "4451 ml",
+    "longest_side": "690 mm",
+    "price": 290000,
+    "price_postapoc": 3000,
+    "to_hit": -2,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "40" ],
+    "skill": "smg",
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 210,
+    "durability": 8,
+    "min_cycle_recoil": 540,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "default_mods": [ "folding_stock" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ump40mag" ] } ],
+    "melee_damage": { "bash": 11 }
+  },
+  {
+		"id": "ump40mag",
+		"looks_like": "mp5mag",
+		"type": "MAGAZINE",
+		"name": {
+			"str": "M3A1 32-round magazine"
+		},
+		"description": "A standard 30-round magazine for the H&K UMP40 submachine gun.",
+		"weight": "170 g",
+		"volume": "200 ml",
+		"longest_side": "200 mm",
+		"price": 4000,
+		"price_postapoc": 100,
+		"material": ["steel"],
+		"symbol": "#",
+		"color": "light_gray",
+		"ammo_type": ["40"],
+		"flags": ["MAG_COMPACT"],
+		"pocket_data": [{
+			"pocket_type": "MAGAZINE",
+			"rigid": true,
+			"ammo_restriction": {
+				"40": 30
+			}
+		}]
+  }
+  ]
