@@ -21,7 +21,7 @@
     "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
     "range": -4,
     "dispersion": 950,
-    "sight_dispersion": 300,
+    "sight_dispersion": 100,
     "durability": 8,
     "clip_size": 2,
     "reload": 80,
