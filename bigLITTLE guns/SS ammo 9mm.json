@@ -6,7 +6,7 @@
     "name": { "str_sp": "9x19mm FMJ SS" },
     "description": "9x19mm subsonic ammunition with a brass jacketed 140gr bullet. Standard lead core with a metallic jacket. Intended to use with suppresed weapon or in practice shooting.",
     "relative": { "damage": { "damage_type": "bullet", "amount": -6, "armor_penetration": 2 } },
-    "proportional": { "range": 0.7, "loudness": 0.7 }
+    "proportional": { "range": 0.7, "loudness": 0.8 }
   },
   {
     "id": "9mmjhpss",
@@ -15,7 +15,7 @@
     "name": { "str_sp": "9x19mm JHP SS" },
     "description": "9x19mm subsonic ammunition with a jacketed hollow point 147gr bullet. Combination of stopping power and reduced noise.",
     "relative": { "damage": { "damage_type": "bullet", "amount": -4, "armor_penetration": 0 } },
-    "proportional": { "range": 0.7, "loudness": 0.7 }
+    "proportional": { "range": 0.7, "loudness": 0.8 }
   },
   {
     "id": "bp_9mmfmjss",
@@ -59,7 +59,7 @@
   },
   {
     "id": "reloaded_9mmfmjss",
-    "copy-from": "9mm",
+    "copy-from": "9mmfmjss",
     "type": "AMMO",
     "name": { "str_sp": "9x19mm FMJ SS, reloaded" },
     "description": "9x19mm subsonic ammunition with a brass jacketed 140gr bullet. Standard lead core with a metallic jacket. Intended to use with suppresed weapon or in practice shooting.  This one has been hand-reloaded by a survivor or perhaps a pre-Cataclysm hobbyist, leading to slightly inferior performance compared to factory-produced ammo.",
