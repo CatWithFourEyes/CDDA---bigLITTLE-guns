@@ -94,7 +94,7 @@
 		"name": {
 			"str": "M3A1 32-round magazine"
 		},
-		"description": "A standard 30-round magazine for the M3A1 submachine gun.",
+		"description": "A standard 32-round magazine for the M3A1 submachine gun.",
 		"weight": "240 g",
 		"volume": "150 ml",
 		"longest_side": "150 mm",
