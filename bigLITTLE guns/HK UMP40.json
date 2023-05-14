@@ -1,4 +1,5 @@
- [{
+[
+  {
     "id": "hk_ump40",
     "looks_like": "hk_mp5",
     "type": "GUN",
@@ -50,29 +51,21 @@
     "melee_damage": { "bash": 11 }
   },
   {
-		"id": "ump40mag",
-		"looks_like": "mp5mag",
-		"type": "MAGAZINE",
-		"name": {
-			"str": "M3A1 32-round magazine"
-		},
-		"description": "A standard 30-round magazine for the H&K UMP40 submachine gun.",
-		"weight": "170 g",
-		"volume": "200 ml",
-		"longest_side": "200 mm",
-		"price": 4000,
-		"price_postapoc": 100,
-		"material": ["steel"],
-		"symbol": "#",
-		"color": "light_gray",
-		"ammo_type": ["40"],
-		"flags": ["MAG_COMPACT"],
-		"pocket_data": [{
-			"pocket_type": "MAGAZINE",
-			"rigid": true,
-			"ammo_restriction": {
-				"40": 30
-			}
-		}]
+    "id": "ump40mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "M3A1 32-round magazine" },
+    "description": "A standard 30-round magazine for the H&K UMP40 submachine gun.",
+    "weight": "170 g",
+    "volume": "200 ml",
+    "longest_side": "200 mm",
+    "price": 4000,
+    "price_postapoc": 100,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "40" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 30 } } ]
   }
-  ]
+]

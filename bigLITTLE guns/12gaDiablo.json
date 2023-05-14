@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "diablo_12ga",
     "copy-from": "pistol_base",
     "looks_like": "glock_17",
@@ -25,12 +25,7 @@
     "durability": 8,
     "clip_size": 2,
     "reload": 80,
-    "valid_mod_locations": [
-      [ "grip", 1 ],
-      [ "stock mount", 1 ],
-      [ "mechanism", 4 ],
-      [ "sights mount", 1 ]
-    ],
+    "valid_mod_locations": [ [ "grip", 1 ], [ "stock mount", 1 ], [ "mechanism", 4 ], [ "sights mount", 1 ] ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
     "flags": [ "NEVER_JAMS", "RELOAD_EJECT", "RELOAD_ONE" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } } ],

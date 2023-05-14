@@ -1,116 +1,87 @@
-[{
-		"id": "greasegun",
-		"looks_like": "hk_mp5",
-		"type": "GUN",
-		"reload_noise_volume": 10,
-		"name": {
-			"str": "WWII .45 SMG"
-		},
-		"description": "A WWII submachine gun chambered in .45 ACP",
-		"variant_type": "gun",
-		"variants": [{
-			"id": "greasegun",
-			"name": {
-				"str": "M3A1 SMG"
-			},
-			"description": "An American-made submachine gun developed during WWII and used till early 1990s. Mass produced, cheap, somewhat crude, but still effective weapon. Still, it somewhat lack reliability.",
-			"weight": 1
-		}],
-		"weight": "3610 g",
-		"volume": "1200 ml",
-		"longest_side": "740 mm",
-		"barrel_length": "203 mm",
-		"price": 150000,
-		"price_postapoc": 2000,
-		"to_hit": -2,
-		"material": ["steel"],
-		"symbol": "(",
-		"color": "light_gray",
-		"ammo": ["45"],
-		"skill": "smg",
-		"ranged_damage": {
-			"damage_type": "bullet",
-			"amount": 1
-		},
-
-		"dispersion": 500,
-		"durability": 6,
-		"min_cycle_recoil": 540,
-		"modes": [
-			["DEFAULT", "semi-auto", 1],
-			["AUTO", "auto", 3]
-		],
-		"barrel_volume": "500 ml",
-		"built_in_mods": ["wire_stock"],
-		"valid_mod_locations": [
-			["barrel", 1],
-			["bore", 1],
-			["brass catcher", 1],
-			["grip", 1],
-			["mechanism", 4],
-			["muzzle", 1],
-			["sling", 1],
-			["stock mount", 1]
-		],
-		"faults": ["fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent"],
-		"pocket_data": [{
-			"pocket_type": "MAGAZINE_WELL",
-			"item_restriction": ["greasegun30mag", "greasegun32mag"]
-		}],
-		"melee_damage": {
-			"bash": 9
-		}
-	},
-	{
-		"id": "greasegun30mag",
-		"looks_like": "mp5mag",
-		"type": "MAGAZINE",
-		"name": {
-			"str": "M3A1 30-round magazine"
-		},
-		"description": "A standard 30-round magazine for the M3A1 submachine gun.",
-		"weight": "230 g",
-		"volume": "135 ml",
-		"longest_side": "135 mm",
-		"price": 3000,
-		"price_postapoc": 100,
-		"material": ["steel"],
-		"symbol": "#",
-		"color": "light_gray",
-		"ammo_type": ["45"],
-		"flags": ["MAG_COMPACT"],
-		"pocket_data": [{
-			"pocket_type": "MAGAZINE",
-			"rigid": true,
-			"ammo_restriction": {
-				"45": 30
-			}
-		}]
-	},
-	{
-		"id": "greasegun32mag",
-		"looks_like": "mp5mag",
-		"type": "MAGAZINE",
-		"name": {
-			"str": "M3A1 32-round magazine"
-		},
-		"description": "A standard 32-round magazine for the M3A1 submachine gun.",
-		"weight": "240 g",
-		"volume": "150 ml",
-		"longest_side": "150 mm",
-		"price": 3000,
-		"price_postapoc": 100,
-		"material": ["steel"],
-		"symbol": "#",
-		"color": "light_gray",
-		"ammo_type": ["45"],
-		"flags": ["MAG_COMPACT"],
-		"pocket_data": [{
-			"pocket_type": "MAGAZINE",
-			"rigid": true,
-			"ammo_restriction": {
-				"45": 32
-			}
-		}]
-	}
+[
+  {
+    "id": "greasegun",
+    "looks_like": "hk_mp5",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "WWII .45 SMG" },
+    "description": "A WWII submachine gun chambered in .45 ACP",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "greasegun",
+        "name": { "str": "M3A1 SMG" },
+        "description": "An American-made submachine gun developed during WWII and used till early 1990s. Mass produced, cheap, somewhat crude, but still effective weapon. Still, it somewhat lack reliability.",
+        "weight": 1
+      }
+    ],
+    "weight": "3610 g",
+    "volume": "1200 ml",
+    "longest_side": "740 mm",
+    "barrel_length": "203 mm",
+    "price": 150000,
+    "price_postapoc": 2000,
+    "to_hit": -2,
+    "material": [ "steel" ],
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": [ "45" ],
+    "skill": "smg",
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 500,
+    "durability": 6,
+    "min_cycle_recoil": 540,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 3 ] ],
+    "barrel_volume": "500 ml",
+    "built_in_mods": [ "wire_stock" ],
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "greasegun30mag", "greasegun32mag" ] } ],
+    "melee_damage": { "bash": 9 }
+  },
+  {
+    "id": "greasegun30mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "M3A1 30-round magazine" },
+    "description": "A standard 30-round magazine for the M3A1 submachine gun.",
+    "weight": "230 g",
+    "volume": "250 ml",
+    "longest_side": "230 mm",
+    "price": 3000,
+    "price_postapoc": 100,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "45" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 30 } } ]
+  },
+  {
+    "id": "greasegun32mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "M3A1 32-round magazine" },
+    "description": "A standard 32-round magazine for the M3A1 submachine gun.",
+    "weight": "240 g",
+    "volume": "260 ml",
+    "longest_side": "245 mm",
+    "price": 3000,
+    "price_postapoc": 100,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "45" ],
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 32 } } ]
+  }
 ]
