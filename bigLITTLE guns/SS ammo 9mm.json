@@ -1,22 +1,23 @@
-[  {
+[
+  {
     "id": "9mmfmjss",
     "copy-from": "9mm",
     "type": "AMMO",
     "name": { "str_sp": "9x19mm FMJ SS" },
     "description": "9x19mm subsonic ammunition with a brass jacketed 140gr bullet. Standard lead core with a metallic jacket. Intended to use with suppresed weapon or in practice shooting.",
-    "relative": { "damage": { "damage_type": "bullet", "amount": -6, "armor_penetration": 2 } }
-	"proportional": {"range": 0.7, "loudness": 0.7 }
-	},
-   {
+    "relative": { "damage": { "damage_type": "bullet", "amount": -6, "armor_penetration": 2 } },
+    "proportional": { "range": 0.7, "loudness": 0.7 }
+  },
+  {
     "id": "9mmjhpss",
     "copy-from": "9mm",
     "type": "AMMO",
     "name": { "str_sp": "9x19mm JHP SS" },
     "description": "9x19mm subsonic ammunition with a jacketed hollow point 147gr bullet. Combination of stopping power and reduced noise.",
-    "relative": { "damage": { "damage_type": "bullet", "amount": -4, "armor_penetration": 0 } }
-	"proportional": {"range": 0.7, "loudness": 0.7 }
-	},	 
-   {
+    "relative": { "damage": { "damage_type": "bullet", "amount": -4, "armor_penetration": 0 } },
+    "proportional": { "range": 0.7, "loudness": 0.7 }
+  },
+  {
     "id": "bp_9mmfmjss",
     "copy-from": "9mmfmjss",
     "type": "AMMO",
@@ -46,7 +47,7 @@
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
   },
-    {
+  {
     "id": "reloaded_9mmjhpss",
     "copy-from": "9mmjhpss",
     "type": "AMMO",
@@ -56,7 +57,7 @@
     "extend": { "effects": [ "RECYCLED" ] },
     "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
   },
-    {
+  {
     "id": "reloaded_9mmfmjss",
     "copy-from": "9mm",
     "type": "AMMO",
