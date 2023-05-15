@@ -31,4 +31,6 @@ AMT Backup .357 SIG and .45 ACP
 
 Defenzia D-09 
 
+S333 Thunderstruck Gen III (.22WMR also)
+
 ???
