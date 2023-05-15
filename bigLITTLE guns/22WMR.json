@@ -1,0 +1,33 @@
+[{
+    "id": "22wmr_jhp",
+    "type": "AMMO",
+    "name": { "str_sp": ".22 WMR" },
+    "description": ".22 WMR jacketed hollow point cartrige with 40gr bullet. Good for short-to-medium range varmint or sport rifles, combining low recoil and acceptable ballistics for its cost and availability.",
+    "weight": "5 g",
+    "volume": "90 ml",
+    "longest_side": "34 mm",
+    "price": 200,
+    "price_postapoc": 800,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "brass", "lead", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 80,
+    "stack_size": 100,
+    "ammo_type": "22wmr",
+    "casing": "22wmr_casing",
+    "range": 20,
+    "damage": { "damage_type": "bullet", "amount": 15 },
+    "dispersion": 60,
+    "recoil": 205,
+    "effects": [ "COOKOFF" ]
+  },
+    {
+    "id": "22wmr_jhp_hv",
+    "copy-from": "22wmr_jhp",
+    "type": "AMMO",
+    "name": { "str_sp": ".22 WMR HV" },
+    "description": ".22 WMR JHP with a high velocity 30 grain bullet. Provides an increase in range and accuracy of fire at the cost of less stopping power. Also, somewhat better at penetrating obstacles.",
+    "relative": { "damage": { "damage_type": "bullet", "amount": -3, "armor_penetration": 1 } }
+  }
+  [
