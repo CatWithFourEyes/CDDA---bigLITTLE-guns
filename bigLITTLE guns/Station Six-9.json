@@ -58,7 +58,7 @@
     "id": "suppressor_compact_ss9",
     "type": "GUNMOD",
     "name": { "str": "compact suppressor" },
-    "description": "A compact wiped suppressor designed for Station Six-9.",
+    "description": "A compact wiped suppressor designed for Station Six-9. More efficient, than non-wiped suppressors, but have very limited lifespan.",
     "weight": "290 g",
     "//": "Station Six-9 suppressor",
     "volume": "150 ml",
@@ -72,10 +72,10 @@
     "location": "muzzle",
     "mod_targets": [ "pistol" ],
     "install_time": "30 s",
-    "consume_chance": 7000,
-    "consume_divisor": 85,
+    "consume_chance": 2000,
+    "consume_divisor": 50,
     "handling_modifier": 1,
-    "loudness_modifier": -30,
+    "loudness_modifier": -40,
     "flags": [ "CONSUMABLE" ]
   }
 ]
