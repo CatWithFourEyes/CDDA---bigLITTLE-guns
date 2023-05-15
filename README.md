@@ -17,14 +17,17 @@ HK UMP40
 
 HK MP5/10 and MP5/40 based on MP5A5 variant with extending stock
 
+
+B&T Station SIX-9 
+
+
+Subsonic 9x19 (currently not working correctly)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 Planned:
 
 AMT Backup .357 SIG and .45 ACP
-
-
-B&T Station SIX-9 and Station SIX-45 (also subsonic 9x19 and .45 ACP)
 
 Defenzia D-09 
 
